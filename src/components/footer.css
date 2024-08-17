@@ -1,0 +1,36 @@
+/* footer.css */
+.footer {
+  padding: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.footer-image-container {
+  margin-bottom: 10px; /* Space between image and "Contact & links" */
+}
+
+.footer-profile-image {
+  width: 100px; /* Adjust size as needed */
+  height: 100px; /* Ensure the height matches the width */
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image covers the circle */
+  border: 2px solid #0077ff; /* Optional: Add a border around the image */
+}
+
+.footer p {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: bold;
+}

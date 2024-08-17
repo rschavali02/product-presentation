@@ -1,0 +1,107 @@
+/* features.css */
+.features {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5em;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feature {
+  flex: 1 1 300px;
+  max-width: 300px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer; /* Make it clear the feature is clickable */
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  color: #0077ff;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+  color: #666666;
+  margin-bottom: 15px;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-image:hover {
+  transform: scale(1.05);
+}
+
+.click-to-zoom {
+  font-size: 0.9em;
+  color: #888888;
+  margin-top: 5px;
+}
+
+/* Modal Styles */
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  max-width: 90%; /* Ensure the modal does not exceed the viewport width */
+  max-height: 90%; /* Ensure the modal does not exceed the viewport height */
+  overflow: hidden; /* Hide anything that overflows from the modal */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Ensure the image doesn't exceed the viewport height */
+  border-radius: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #333;
+  cursor: pointer;
+  z-index: 1001; /* Ensure the close button is always on top */
+}

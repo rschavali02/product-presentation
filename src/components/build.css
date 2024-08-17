@@ -1,0 +1,52 @@
+/* build.css */
+.build {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .build h2 {
+    font-size: 2.5em;
+    color: #333333;
+    margin-bottom: 40px;
+  }
+  
+  .build-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .build-item {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .build-image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .build-video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .build p {
+    font-size: 1.2em;
+    color: #555555;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .build-video {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    height: 450px; /* Adjust height to fit the video aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
