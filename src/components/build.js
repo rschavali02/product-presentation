@@ -5,10 +5,10 @@ import chalkboardImage from './chalkboard.png';
 function Build() {
   return (
     <section id="build" className="build">
-      <h2>What I Built</h2>
+      <h2>My Build</h2>
       <div className="build-content">
       <div className="build-item">
-          <p>This is what I built, so I could understand how Otter.ai might work, and what product considerations there might be. <br /> <br /> This AI application takes in a users youtube video, or a video file, reads the transcript, and then gives them saved notes based on detail level. The notes can be exported as .docx or .pdf and edited on the site. This was originally made as a study tool, but I quickly realized it would be unusable by students in other countries to non-english speakers.<br /><br /> The GitHub repository as well as installation instructions to test this yourself are linked: 
+          <p> I build this AI application that takes in a users youtube video, or a video file, reads the transcript, and then gives them saved notes based on detail level. The notes can be exported as .docx or .pdf and edited on the site. This was originally made as a study tool, but I quickly realized it would be unusable by students in other countries to non-english speakers.<br /><br /> After building this product, I had an idea of how Otter.ai might work, and what product considerations there might be. <br /><br /> The GitHub repository as well as installation instructions to test this yourself are linked: 
           <a href="https://github.com/rschavali02/Chalkboard.ai_" target="_blank" rel="noopener noreferrer">
           GitHub
           </a>
