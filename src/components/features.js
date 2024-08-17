@@ -26,7 +26,7 @@ function Features() {
       <div className="features-grid">
         <div className="feature" onClick={() => openModal(feature1Image)}>
           <h3>Feature 1</h3>
-          <p>Enable users to translate their notes to share with others.</p>
+          <p>Enable users to translate their personal notes to a preferred language.</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image" />
           <p className="click-to-zoom">Click to Zoom</p>
         </div>
