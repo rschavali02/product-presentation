@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+
+# Template for Product Presentations
+
+Built to launch/promote any new product idea. React, JS, HTML, CSS
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
