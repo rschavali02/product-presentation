@@ -1,5 +1,5 @@
 
-# Template for Product Presentations
+# Product Presentations
 
 Built to launch/promote any new product idea. React, JS, HTML, CSS\
 Launched on Vercel: product-presentation.vercel.app
