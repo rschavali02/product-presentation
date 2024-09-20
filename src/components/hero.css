@@ -14,7 +14,7 @@
 
 .hero-content h1 {
   font-size: 3em;
-  color: #333333;
+  color: #212121;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -32,13 +32,13 @@
 
 .hero-content p {
   font-size: 1.25em;
-  color: #555555;
+  color: #212121;
   margin-bottom: 30px;
 }
 
 .cta-button {
   padding: 15px 30px;
-  background-color: #0077ff;
+  background-color: #FF0000;
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,7 +47,7 @@
 }
 
 .cta-button:hover {
-  background-color: #005bb5;
+  background-color: #b2071d;
 }
 
 .hero-image img {
