@@ -6,9 +6,9 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Introducing Translate
+          Introducing YouSummarize
         </h1>
-        <p>Translate is the next step for Otter.ai. Seamlessly integrated with AI technology, it's designed to help you learn more.</p>
+        <p>YouSummarize is the next step for Youtube. Seamlessly integrated with AI technology, it's designed to help you learn faster.</p>
         <div className="text-above-button">
           <p>Ready to dive in? Click the button to see the full Product Spec!</p>
         </div>

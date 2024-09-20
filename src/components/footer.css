@@ -14,7 +14,7 @@
   height: 100px; /* Ensure the height matches the width */
   border-radius: 50%; /* Make the image circular */
   object-fit: cover; /* Ensure the image covers the circle */
-  border: 2px solid #0077ff; /* Optional: Add a border around the image */
+  border: 2px solid #FF0000; /* Optional: Add a border around the image */
 }
 
 .footer p {
@@ -31,6 +31,6 @@
 
 .social-links a {
   text-decoration: none;
-  color: #0077ff;
+  color: #FF0000;
   font-weight: bold;
 }
