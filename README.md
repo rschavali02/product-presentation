@@ -3,7 +3,7 @@
 
 Built to launch/promote any new product idea. React, JS, HTML, CSS
 Launched on Vercel: 
-## Link: https://bear-living.vercel.app/
+## Link:https://product-presentation.vercel.app/
 
 ## Why Was This Built
 This was built as a website to do easy product pitches. This is a scalable react website built to launch any product idea with great user experience. The website and easitly be personalized with colors, images, and logos, and currently it is being used for a product idea for YouTube. 
