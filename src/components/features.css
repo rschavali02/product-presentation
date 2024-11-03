@@ -1,13 +1,14 @@
 /* features.css */
 .features {
   padding: 60px 20px;
-  background-color: #ffffff;
+  background-color:  #1a1524;
   text-align: center;
+  overflow: hidden; 
 }
 
 .features h2 {
   font-size: 2.5em;
-  color: #212121;
+  color: #f8f6ff;
   margin-bottom: 40px;
 }
 
@@ -22,8 +23,8 @@
   flex: 1 1 300px;
   max-width: 300px;
   padding: 20px;
-  background-color: #f1f1f1;
-  border-radius: 10px;
+  background-color: #8d74c7;
+  border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   cursor: pointer; /* Make it clear the feature is clickable */
@@ -31,13 +32,13 @@
 
 .feature h3 {
   font-size: 1.5em;
-  color: #FF0000;
+  color: #f8f6ff;
   margin-bottom: 10px;
 }
 
 .feature p {
   font-size: 1em;
-  color: #666666;
+  color: #f8f6ff;
   margin-bottom: 15px;
 }
 
