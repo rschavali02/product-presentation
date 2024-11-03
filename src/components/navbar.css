@@ -57,13 +57,16 @@
 /* Mobile Styles */
 @media (max-width: 768px) {
   .navbar {
-    margin-top: 100px;
     transition: margin-top 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth float effect */
   }
 
   .presentation-logo-container {
-    left: auto;
+    position: relative; /* Change to relative for easier centering */
+    left: 0;
     transform: none;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it spans the full navbar width */
   }
 
   .hamburger {
