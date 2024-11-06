@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/your-repo-name/static/css/main.5d2da833.css",
+    "main.js": "/your-repo-name/static/js/main.2de45128.js",
+    "static/js/453.5dc629ec.chunk.js": "/your-repo-name/static/js/453.5dc629ec.chunk.js",
+    "static/media/feature1.png": "/your-repo-name/static/media/feature1.a8d9b52e40903409b2cb.png",
+    "static/media/feature2.png": "/your-repo-name/static/media/feature2.e855589f9944e9814e90.png",
+    "static/media/chalkboard.png": "/your-repo-name/static/media/chalkboard.92153ccb00720c071a21.png",
+    "static/media/feature3.png": "/your-repo-name/static/media/feature3.e8a3392139cf15252882.png",
+    "static/media/profileImage.JPG": "/your-repo-name/static/media/profileImage.35b6de0569b1edecb158.JPG",
+    "static/media/Translate.png": "/your-repo-name/static/media/Translate.34de109699b816d7edec.png",
+    "index.html": "/your-repo-name/index.html",
+    "main.5d2da833.css.map": "/your-repo-name/static/css/main.5d2da833.css.map",
+    "main.2de45128.js.map": "/your-repo-name/static/js/main.2de45128.js.map",
+    "453.5dc629ec.chunk.js.map": "/your-repo-name/static/js/453.5dc629ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d2da833.css",
+    "static/js/main.2de45128.js"
+  ]
+}
