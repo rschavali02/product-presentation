@@ -1,8 +1,8 @@
 {
-  "homepage": "https://rschavali02.github.io/product-presentation/",
   "name": "product-presentation",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rschavali02.github.io/product-presentation/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
