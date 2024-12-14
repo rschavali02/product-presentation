@@ -1,14 +1,14 @@
 /* features.css */
 .features {
   padding: 60px 20px;
-  background-color:  #1a1524;
+  background-color:  #040404;
   text-align: center;
   overflow: hidden; 
 }
 
 .features h2 {
   font-size: 2.5em;
-  color: #f8f6ff;
+  color: #f1f1f1;
   margin-bottom: 40px;
 }
 
@@ -16,14 +16,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 100px;
 }
 
 .feature {
   flex: 1 1 300px;
   max-width: 300px;
   padding: 20px;
-  background-color: #8d74c7;
+  background-color: #404040;
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;

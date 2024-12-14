@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './features.css';
-import feature2Image from "./feature2.png";
 import feature1Image from "./feature1.png";
+import feature2Image from "./feature2.png";
 import feature3Image from "./feature3.png";
 import Modal from 'react-modal';
 
@@ -25,20 +25,20 @@ function Features() {
       <h2>Key Features</h2>
       <div className="features-grid">
         <div className="feature" onClick={() => openModal(feature1Image)}>
-          <h3>Feature 1</h3>
-          <p>Enable users to select the summarize feature with easy access on the side bar view.</p>
+          <h3>Match Screen</h3>
+          <p>Enable users learn more about their Match with specific insights</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
         <div className="feature" onClick={() => openModal(feature2Image)}>
-          <h3>Feature 2</h3>
-          <p>Allow users to title the transcription and summary, as well as press their selected key to record.</p>
-          <img src={feature2Image} alt="Feature 2" className="feature-image" />
+          <h3>Chat Screen</h3>
+          <p>Give users tools to effectively communicate and close deals.</p>
+          <img src = {feature2Image} alt="Feature 2" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
         <div className="feature" onClick={() => openModal(feature3Image)}>
-          <h3>Feature 3</h3>
-          <p>Give users the ability to generate summaries by detail level and save a full transcript of their recording.</p>
+          <h3>Document Screen</h3>
+          <p>Provide document clarity by including summaries and chat functionality</p>
           <img src = {feature3Image} alt="Feature 3" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>

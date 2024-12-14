@@ -1,0 +1,33 @@
+/* CSS File: faq.css */
+
+.faq {
+    background-color:  #040404;
+    text-align: center;
+    overflow: hidden; 
+  }
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .faq-question:hover {
+    background-color: #eaeaea;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+  }
+  .faq h1{
+    color: #f1f1f1
+  }
+  .faq p{
+    color: #f1f1f1
+  }
+  .box{
+    color: #040404
+  }
+

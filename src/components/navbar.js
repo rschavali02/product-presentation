@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import presentationImage from './Translate.png';  // Import your presentation image
+import presentationImage from './logo.png';  // Import your presentation image
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Summaries</div>
+      <div className="logo">Match</div>
       <div className="presentation-logo-container">
         <img src={presentationImage} alt="Presentation Logo" className="presentation-logo" />
       </div>

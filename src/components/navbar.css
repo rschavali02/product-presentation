@@ -4,8 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
-  border-radius: 30px;
+  background-color: #040404;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -15,7 +14,7 @@
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  color: #212121;
+  color: #f1f1f1;
 }
 
 .presentation-logo-container {
@@ -25,8 +24,8 @@
 }
 
 .presentation-logo {
-  width: 50px; /* Adjust the size as needed */
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .hamburger {
@@ -45,7 +44,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #333333;
+  color: #f1f1f1;
   font-weight: 500;
 }
 

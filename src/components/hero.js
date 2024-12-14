@@ -7,13 +7,13 @@ function Hero() {
       <div className="hero-content">
         <div className='white-box'>
         <h1>
-          Introducing FlowSummarize
+          Introducing Match
         </h1>
-        <p>FlowSummarize is the next step for Wispr Flow. Seamlessly integrated with AI technology, it's designed to help you work faster.</p>
+        <p>Match is the next step for connecting buyers and sellers. Seamlessly integrated with AI technology, it's designed maximize your interactions and convert to deals.</p>
         <div className="text-above-button"> 
           <p>Ready to dive in? Click the button to see the full Product Spec!</p>
         </div>
-        <a href="https://docs.google.com/document/d/1R3DzrA8crRbDeoOkSpBtglnVE4Vsa6IL3AI9qDxtqOM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.google.com/document/d/1dX4hAcSwgn1mu0Yg_7aSMfXBw7wur8NLYYaQ6T3fON0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="cta-button">Click to View</button>
         </a>
         </div>
