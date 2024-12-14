@@ -1,33 +1,91 @@
 /* CSS File: faq.css */
 
 .faq {
-    background-color:  #040404;
-    text-align: center;
-    overflow: hidden; 
-  }
+    background-color: #040404;
+    overflow: hidden;
+}
+
 .faq-question {
     font-weight: bold;
     cursor: pointer;
-    padding: 10px;
+    padding: 15px;
     background-color: #f1f1f1;
-  }
-  
-  .faq-question:hover {
-    background-color: #eaeaea;
-  }
-  
-  .faq-answer {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-    background-color: #fff;
-  }
-  .faq h1{
-    color: #f1f1f1
-  }
-  .faq p{
-    color: #f1f1f1
-  }
-  .box{
-    color: #040404
-  }
+    border-radius: 8px; /* Added rounded corners */
+    margin: 5px 0; /* Added margin for better spacing */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
 
+.faq-question:hover {
+    background-color: #eaeaea;
+}
+
+.faq-answer {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px; /* Added rounded corners */
+    background-color: #fff;
+    display: none; /* Default to hidden for FAQ accordion behavior */
+    text-align: left; /* Align text for better readability */
+}
+
+.faq h1 {
+    color: #f1f1f1;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faq p {
+    color: #f1f1f1;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.box {
+    color: #040404;
+}
+
+/*Mobile Styles*/
+@media (max-width: 768px) {
+    .faq {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .faq h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .faq p {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .faq-question {
+        background-color: #f1f1f1;
+        color: #040404;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #ddd;
+        transition: background-color 0.3s ease;
+    }
+
+    .faq-answer {
+        display: none; /* Initially hidden */
+        background-color: #fff;
+        color: #040404;
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}

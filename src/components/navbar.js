@@ -20,7 +20,7 @@ function Navbar() {
       </button>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
         <li><a href="#features">Features To Add</a></li>
-        <li><a href="#build">My Build</a></li>
+        <li><a href="#build">AI Tools</a></li>
         <li><a href="#footer">Contact</a></li>
       </ul>
     </nav>
