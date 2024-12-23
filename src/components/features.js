@@ -19,6 +19,7 @@ function Features() {
   const closeModal = () => {
     setModalIsOpen(false);
   };
+  //update
 
   return (
     <section id="features" className="features">
