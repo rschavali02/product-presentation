@@ -16,9 +16,6 @@ function Build() {
           </p>
       </div>
         <div className="build-item">
-          <img src={chalkboardImage} alt="Your Build" className="build-image" />
-        </div>
-        <div className="build-item">
           <iframe
             src="https://www.loom.com/embed/d7793752fe7641d89a9dc7a0032f36b9"  // Use the embed URL here
             frameBorder="0"

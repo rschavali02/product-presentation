@@ -1,14 +1,14 @@
 /* build.css */
 .build {
     padding: 10px 10px;
-    background-color: #1a1524;
+    background-color: #191919;
     text-align: center;
     overflow: hidden; 
   }
   
   .build h2 {
     font-size: 2.5em;
-    color: #f8f6ff;
+    color: #f7f4f3;
     text-align: center;
     margin-bottom: 40px;
   }
@@ -21,7 +21,7 @@
   }
   
   .box {
-    background-color: #2d273c;
+    background-color: #191919;
     padding: 75px 350px; /* Adjusted padding */
     border-radius: 30px;
     text-align: center;
@@ -47,7 +47,7 @@
   
   .build p {
     font-size: 1.2em;
-    color: #f8f6ff;
+    color: #f7f4f3;
     font-style: italic;
     max-width: 800px;
     margin: 0 auto;

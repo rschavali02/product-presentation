@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 20px;
-  background-color: #1a1524;
+  background-color: #191919;
   text-align: center;
   overflow: hidden; 
 }
@@ -38,7 +38,7 @@
 }
 
 .white-box {
-  background-color: #f8f6ff; /* Light background color */
+  background-color: #f7f4f3; /* Light background color */
   padding: 75px 250px; /* Adjusted padding */
   border-radius: 30px;
   text-align: center;
@@ -47,7 +47,7 @@
 
 .cta-button {
   padding: 15px 30px;
-  background-color: #8d74c7;
+  background-color: #191919;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -57,7 +57,8 @@
 }
 
 .cta-button:hover {
-  background-color: #2b273b;
+  background-color: #f7f4f3;
+  color: #191919
 }
 
 .hero-image img {
