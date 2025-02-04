@@ -19,6 +19,7 @@ function Features() {
   const closeModal = () => {
     setModalIsOpen(false);
   };
+  //update
 
   return (
     <section id="features" className="features">
@@ -26,21 +27,21 @@ function Features() {
       <div className="features-grid">
         <div className="feature" onClick={() => openModal(feature1Image)}>
           <h3>Feature 1</h3>
-          <p>Enable users to select the detail level of their notes for different age groups.</p>
+          <p>Enable users to upload videos into Notion and allow them to ask Notion AI for video summaries.</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image" />
-          <p className="click-to-zoom">Click to Zoom</p>
+          <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
         <div className="feature" onClick={() => openModal(feature2Image)}>
           <h3>Feature 2</h3>
-          <p>Automatically generate notes underneath the video based on the video transcript.</p>
+          <p>Give users the ability to generate summaries by detail level and save an editable summary into their note.</p>
           <img src={feature2Image} alt="Feature 2" className="feature-image" />
-          <p className="click-to-zoom">Click to Zoom</p>
+          <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
         <div className="feature" onClick={() => openModal(feature3Image)}>
           <h3>Feature 3</h3>
-          <p>Give users the ability to save notes to their Youtube account.</p>
+          <p>Allow users to input videos into Notion AI for summaries, quicker information, and user convenience</p>
           <img src = {feature3Image} alt="Feature 3" className="feature-image" />
-          <p className="click-to-zoom">Click to Zoom</p>
+          <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
       </div>
 

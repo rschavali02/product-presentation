@@ -4,7 +4,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #f7f4f3;
+  border-radius: 30px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -55,9 +56,17 @@
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+  .navbar {
+    transition: margin-top 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth float effect */
+  }
+
   .presentation-logo-container {
-    left: auto;
+    position: relative; /* Change to relative for easier centering */
+    left: 0;
     transform: none;
+    display: flex;
+    justify-content: center;
+    width: 100%; /* Ensure it spans the full navbar width */
   }
 
   .hamburger {
