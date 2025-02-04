@@ -11,7 +11,7 @@ function Build() {
       <h2>My Build</h2>
           <p> I build an AI application that takes in a user's youtube video, or a video file, reads the transcript, and then gives them saved notes based on detail level. The notes can be exported as .docx or .pdf and edited on the site. This was originally made as a study tool, but I quickly realized it would be better used as a resource for all speech, video, or media of any sort to allow people to get get convenient summaries in any situation<br /><br /> <b> Rationale: </b> Once I built this product, I realized the next step to help the understanding process was to build a RAG chatbot that took in the details of the video and allowed users to ask the questions. That idea led to this product idea for Spotify. <br /><br /> Technologies Used: Streamlit, Python3, LLaMa3, MongoDB, YoutubeTranscriptReader, AssemblyAI.<br /><br /> The GitHub repository as well as installation instructions to test this yourself are linked: 
           <a href="https://github.com/rschavali02/Chalkboard.ai_" target="_blank" rel="noopener noreferrer">
-          GitHub
+          GitHub<br /><br />
           </a>
           </p>
       </div>
