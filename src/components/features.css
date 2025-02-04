@@ -17,26 +17,58 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  align-items: stretch; /* Ensures consistent height */
 }
 
-.feature {
-  flex: 1 1 300px;
-  max-width: 300px;
+.feature1 {
+  flex: 1 1 auto; /* Adjust size dynamically */
+  max-width: 600px; /* Increased max width for better scaling */
+  min-width: 300px;
   padding: 20px;
-  background-color: #7f7f7f;
+  background-color: #1ed760;
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  cursor: pointer; /* Make it clear the feature is clickable */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.feature h3 {
+.feature2 {
+  flex: 1 1 auto; /* Adjust size dynamically */
+  max-width: 250px; /* Increased max width for better scaling */
+  min-width: 200px;
+  padding: 20px;
+  background-color: #1ed760;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.feature1 h3 {
   font-size: 1.5em;
   color: #f7f4f3;
   margin-bottom: 10px;
 }
 
-.feature p {
+.feature2 h3 {
+  font-size: 1.5em;
+  color: #f7f4f3;
+  margin-bottom: 10px;
+}
+
+
+.feature1 p {
+  font-size: 1em;
+  color: #f7f4f3;
+  margin-bottom: 15px;
+}
+
+.feature2 p {
   font-size: 1em;
   color: #f7f4f3;
   margin-bottom: 15px;
@@ -46,6 +78,7 @@
   width: 100%;
   height: auto;
   border-radius: 10px;
+  aspect-ratio: auto; /* Maintains the image's aspect ratio */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -57,6 +90,13 @@
   font-size: 0.9em;
   color: #888888;
   margin-top: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .feature:nth-child(3) .feature-image {
+    max-width: 70%; /* Further reduce size on smaller screens */
+  }
 }
 
 /* Modal Styles */

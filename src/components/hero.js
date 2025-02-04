@@ -7,13 +7,13 @@ function Hero() {
       <div className="hero-content">
         <div className='white-box'>
         <h1>
-          Introducing Notes
+          Introducing Pulse
         </h1>
-        <p>Notes is the next step for Notion. Seamlessly integrated with AI technology, it's designed to help you learn faster and organize better.</p>
+        <p>Keep your finger on the Pulse with Spotify's new product seamlessly integrated with AI technology. It's designed to help keep your discover podcasts and expand your understanding.</p>
         <div className="text-above-button"> 
           <p>Ready to dive in? Click the button to see the full Product Spec!</p>
         </div>
-        <a href="https://docs.google.com/document/d/177-i8JSEZmXIf8nyk3pnxgjUD5s69dmA_HXNChosXyw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.google.com/document/d/1TSsMgs1RsDLpkmrmOZGOeKhEtL3SAdCSobYvdVd6m5w/edit?tab=t.0" target="_blank" rel="noopener noreferrer">
           <button className="cta-button">Click to View</button>
         </a>
         </div>

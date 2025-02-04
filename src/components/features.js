@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './features.css';
-import feature2Image from "./feature2.png";
+//import feature2Image from "./feature2.png";
 import feature1Image from "./feature1.png";
 import feature3Image from "./feature3.png";
 import Modal from 'react-modal';
@@ -25,21 +25,21 @@ function Features() {
     <section id="features" className="features">
       <h2>Key Features</h2>
       <div className="features-grid">
-        <div className="feature" onClick={() => openModal(feature1Image)}>
-          <h3>Feature 1</h3>
-          <p>Enable users to upload videos into Notion and allow them to ask Notion AI for video summaries.</p>
+        <div className="feature1" onClick={() => openModal(feature1Image)}>
+          <h3>Screen 1</h3>
+          <p>The website version allows users to see their instance of Pulse on the play screen. The screen shows a chatbot alongside common questions users might ask.</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
-        <div className="feature" onClick={() => openModal(feature2Image)}>
+        {/*<div className="feature" onClick={() => openModal(feature2Image)}>
           <h3>Feature 2</h3>
           <p>Give users the ability to generate summaries by detail level and save an editable summary into their note.</p>
           <img src={feature2Image} alt="Feature 2" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
-        </div>
-        <div className="feature" onClick={() => openModal(feature3Image)}>
-          <h3>Feature 3</h3>
-          <p>Allow users to input videos into Notion AI for summaries, quicker information, and user convenience</p>
+    </div> */}
+        <div className="feature2" onClick={() => openModal(feature3Image)}>
+          <h3>Screen 2</h3>
+          <p>The phone version allows users to see their instance of Pulse on the play screen conveniently placed under the podcast play button.</p>
           <img src = {feature3Image} alt="Feature 3" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
