@@ -27,7 +27,7 @@ function Features() {
       <div className="features-grid">
         <div className="feature1" onClick={() => openModal(feature1Image)}>
           <h3>Screen 1</h3>
-          <p>The website version allows users to see Pulse tailored to their podcast on the play screen. The screen shows a chatbox alongside common questions users might ask. Users can ask from anything to context and clarification to translating transcripts to another language. Since the transcript is text, modern day LLMs are perfect for this solution.</p>
+          <p>The website version allows users to see the Pulse chatbox tailored to the podcast on their play screen, where they can ask anything from context and clarification to translating the transcript into another language. Since the transcript is text, modern-day LLMs are perfect for this solution.</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image1" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
