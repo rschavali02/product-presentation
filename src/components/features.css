@@ -74,7 +74,16 @@
   margin-bottom: 15px;
 }
 
-.feature-image {
+.feature-image1 {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  aspect-ratio: auto; /* Maintains the image's aspect ratio */
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-image2 {
   width: 100%;
   height: auto;
   border-radius: 10px;
