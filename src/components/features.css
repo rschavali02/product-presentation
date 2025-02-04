@@ -22,7 +22,7 @@
 
 .feature1 {
   flex: 1 1 auto; /* Adjust size dynamically */
-  max-width: 600px; /* Increased max width for better scaling */
+  max-width: 700px; /* Increased max width for better scaling */
   min-width: 300px;
   padding: 20px;
   background-color: #1ed760;
