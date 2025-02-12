@@ -33,7 +33,7 @@ function Features() {
         </div>
         <div className="feature" onClick={() => openModal(feature2Image)}>
           <h3>Feature 2</h3>
-          <p>By sharing generated profiles, recruiters can showcase and leverage their strengths, while companies gain insight into these strengths when assessing their selected candidates.</p>
+          <p>By sharing generated profiles, recruiters can showcase and leverage their strengths, while companies gain insight into these strengths when assessing selected candidates.</p>
           <img src={feature2Image} alt="Feature 2" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
