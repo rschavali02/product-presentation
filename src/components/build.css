@@ -1,7 +1,7 @@
 /* build.css */
 .build {
     padding: 10px 10px;
-    background-color: #191919;
+    background-color: #f6f3f2;
     text-align: center;
     overflow: hidden; 
   }
@@ -21,7 +21,7 @@
   }
   
   .box {
-    background-color: #191919;
+    background-color: #343434;
     padding: 75px 350px; /* Adjusted padding */
     border-radius: 30px;
     text-align: center;

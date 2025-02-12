@@ -7,9 +7,9 @@ function Hero() {
       <div className="hero-content">
         <div className='white-box'>
         <h1>
-          Introducing Notes
+          Introducing Share
         </h1>
-        <p>Notes is the next step for Notion. Seamlessly integrated with AI technology, it's designed to help you learn faster and organize better.</p>
+        <p>Share is the next step for Paraform. Seamlessly integrated with AI technology, it's designed to help Paraform grow and recruiters network.</p>
         <div className="text-above-button"> 
           <p>Ready to dive in? Click the button to see the full Product Spec!</p>
         </div>

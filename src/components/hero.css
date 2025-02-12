@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 10px 20px;
-  background-color: #191919;
+  background-color: #343434;
   text-align: center;
   overflow: hidden; 
 }
@@ -15,7 +15,7 @@
 
 .hero-content h1 {
   font-size: 3em;
-  color: #1a1524;
+  color: #343434;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -33,12 +33,12 @@
 
 .hero-content p {
   font-size: 1.25em;
-  color: #1a1524;
+  color: #343434;
   margin-bottom: 30px;
 }
 
 .white-box {
-  background-color: #f7f4f3; /* Light background color */
+  background-color: #f6f3f2; /* Light background color */
   padding: 75px 250px; /* Adjusted padding */
   border-radius: 30px;
   text-align: center;
@@ -47,7 +47,7 @@
 
 .cta-button {
   padding: 15px 30px;
-  background-color: #191919;
+  background-color: #343434;
   color: white;
   border: none;
   padding: 12px 20px;

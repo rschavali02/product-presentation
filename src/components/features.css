@@ -1,7 +1,7 @@
 /* features.css */
 .features {
   padding: 60px 20px;
-  background-color:  #191919;
+  background-color:  #f6f3f2;
   text-align: center;
   overflow: hidden; 
 }
@@ -23,7 +23,7 @@
   flex: 1 1 300px;
   max-width: 300px;
   padding: 20px;
-  background-color: #7f7f7f;
+  background-color: #343434;
   border-radius: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
