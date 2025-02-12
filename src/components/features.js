@@ -27,7 +27,7 @@ function Features() {
       <div className="features-grid">
         <div className="feature" onClick={() => openModal(feature1Image)}>
           <h3>Feature 1</h3>
-          <p>Allow recrutiers to view their personal stats and oppurtunities as well a leaderboard to compare against.</p>
+          <p>Allow recrutiers to view their personal stats and oppurtunities as well a leaderboard to compare against, increasing transparency amongst recruiters.</p>
           <img src={feature1Image} alt="Feature 1" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
@@ -39,7 +39,7 @@ function Features() {
         </div>
         <div className="feature" onClick={() => openModal(feature3Image)}>
           <h3>Feature 3</h3>
-          <p>Exporting their profile to linkedin will allow a network effect, making it easy for their recruiter network to add more trust to attract more recruiting talent.</p>
+          <p>Exporting their profile to linkedin will allow a network effect, making it easy for their recruiter network to add more trust in the platform to attract more recruiting talent.</p>
           <img src = {feature3Image} alt="Feature 3" className="feature-image" />
           <p className="click-to-zoom">(Click to Zoom)</p>
         </div>
