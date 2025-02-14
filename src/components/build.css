@@ -52,6 +52,12 @@
     max-width: 800px;
     margin: 0 auto;
   }
+
+  .build a {
+    color: #f8f6ff;
+    font-style: italic;
+  }
+
   .build-video {
     width: 100%;
     max-width: 800px; /* Adjust as needed */
