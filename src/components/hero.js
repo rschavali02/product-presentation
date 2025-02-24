@@ -11,7 +11,7 @@ function Hero() {
         </h1>
         <p>FlowAssistant is the next step for Wispr Flow. Seamlessly integrated with AI technology, it's designed to help you work faster.</p>
         <div className="text-above-button"> 
-          <p>Ready to dive in? Click the button to see the full Product Analysis!</p>
+          <p>Ready to dive in? Click the button to see the full product analysis!</p>
         </div>
         <a href="https://docs.google.com/document/d/1hoB7ImMWbzBwSdQmGKlMp4AAt5QhQJ3WNYwMMpJSl7Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="cta-button">Click to View</button>

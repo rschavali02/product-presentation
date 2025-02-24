@@ -9,7 +9,7 @@ function Build() {
       <div className='box'>
       <div className="build-item">
       <h2>My Build</h2>
-          <p> I built an AI Assistant that takes in a user's speech, allowing them to reference their calendar, dictate notes instead of typing, and ask an AI assistant questions. Originally designed as a productivity tool, I quickly realized its potential as a hands-free assistant for scheduling, note-taking, and quick information retrieval, making it useful in various situations where typing isn't convenient.
+          <p> I built an AI Assistant that takes in a user's speech and references their calendar. Users can dictate notes, rather than type, and ask the AI assistant questions. Originally designed as a productivity tool, I quickly realized its potential as a hands-free assistant for scheduling, note-taking, and quick information retrieval, making it useful in various situations where typing isn't convenient.
           <br></br>
           <br></br>
           Technologies Used: Python, Vosk Speech-to-Text Model, GroqCloud with Llama3 Integration, TKinter GUI, PyAudio
