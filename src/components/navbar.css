@@ -21,7 +21,7 @@
 .presentation-logo-container {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-15%);
 }
 
 .presentation-logo {
