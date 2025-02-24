@@ -13,7 +13,7 @@ function Hero() {
         <div className="text-above-button"> 
           <p>Ready to dive in? Click the button to see the full product analysis!</p>
         </div>
-        <a href="https://docs.google.com/document/d/1hoB7ImMWbzBwSdQmGKlMp4AAt5QhQJ3WNYwMMpJSl7Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <a href="https://docs.google.com/document/d/1BOZKemDdEoMAAoIoIKEVFfAYMaKy9XrO4gAL1iV9d6U/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
           <button className="cta-button">Click to View</button>
         </a>
         </div>
