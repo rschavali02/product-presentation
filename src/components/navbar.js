@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">Summaries</div>
+      <div className="logo">AI Assistant</div>
       <div className="presentation-logo-container">
         <img src={presentationImage} alt="Presentation Logo" className="presentation-logo" />
       </div>
